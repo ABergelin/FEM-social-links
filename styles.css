@@ -1,0 +1,70 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter, sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.card {
+  margin: 100px auto;
+  width: 400px;
+  height: 600px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+}
+
+p,
+h1,
+button {
+  color: hsl(0, 0%, 100%);
+}
+
+.address {
+  color: hsl(75, 94%, 57%);
+  margin: -10px 0px 10px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.name {
+  font-size: 14;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
